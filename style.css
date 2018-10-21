@@ -47,9 +47,28 @@ a:hover{
 
 
 /*div*/
+.sidebar{
+	position:fixed;
+	width:200px;
+	left:0;
+	top:0;
+	bottom:0;
+}
+.sidebar ul{
+	list-style: none;
+}
+.list-vertical{
+	list-style: inline;
+}
+.list-vertical li{
+	padding:10px;
+}
+.page-content{
+	margin-left: 200px;
+}
 #container-ivory{
 	background-color: #f5efe3;
-    margin: 100px auto;
+    margin:0px 100px;
     width: 1300px;
 }
 
