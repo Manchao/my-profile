@@ -42,6 +42,7 @@ a{
 }
 a:hover{
 	color:rgb(50,50,50);
+	background-color:#f7d3ba;
 }
 
 
@@ -96,4 +97,11 @@ a:hover{
 /*image*/
 .image-circle{
 	border-radius: 50%
+	
 }
+.image-bordered{
+	border:10px white;
+}
+
+
+
